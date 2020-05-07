@@ -18,6 +18,9 @@
 		ADF9394D24646B2E00E1CD01 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9394C24646B2E00E1CD01 /* SettingsViewController.swift */; };
 		ADF9395024646B6500E1CD01 /* ChildrenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9394F24646B6500E1CD01 /* ChildrenViewController.swift */; };
 		ADF9395224646B7400E1CD01 /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9395124646B7400E1CD01 /* GamesViewController.swift */; };
+		ADF9395724646E4E00E1CD01 /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9395624646E4E00E1CD01 /* NumberViewController.swift */; };
+		ADF9395924646E7200E1CD01 /* NamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9395824646E7200E1CD01 /* NamesViewController.swift */; };
+		ADF9395B24646E7F00E1CD01 /* AgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9395A24646E7F00E1CD01 /* AgesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		ADF9394C24646B2E00E1CD01 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		ADF9394F24646B6500E1CD01 /* ChildrenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenViewController.swift; sourceTree = "<group>"; };
 		ADF9395124646B7400E1CD01 /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		ADF9395624646E4E00E1CD01 /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
+		ADF9395824646E7200E1CD01 /* NamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesViewController.swift; sourceTree = "<group>"; };
+		ADF9395A24646E7F00E1CD01 /* AgesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +86,10 @@
 		ADF9394524646AA100E1CD01 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				ADF9395424646E1600E1CD01 /* configuration */,
+				ADF9395324646E0B00E1CD01 /* trip */,
 				ADF9394E24646B5000E1CD01 /* settings */,
 				ADF939352464631D00E1CD01 /* HomeViewController.swift */,
-				ADF9394824646AF200E1CD01 /* InstallationViewController.swift */,
-				ADF9394A24646B1800E1CD01 /* MapViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -96,6 +102,33 @@
 				ADF9395124646B7400E1CD01 /* GamesViewController.swift */,
 			);
 			path = settings;
+			sourceTree = "<group>";
+		};
+		ADF9395324646E0B00E1CD01 /* trip */ = {
+			isa = PBXGroup;
+			children = (
+				ADF9394824646AF200E1CD01 /* InstallationViewController.swift */,
+				ADF9394A24646B1800E1CD01 /* MapViewController.swift */,
+			);
+			path = trip;
+			sourceTree = "<group>";
+		};
+		ADF9395424646E1600E1CD01 /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+				ADF9395524646E3800E1CD01 /* children */,
+			);
+			path = configuration;
+			sourceTree = "<group>";
+		};
+		ADF9395524646E3800E1CD01 /* children */ = {
+			isa = PBXGroup;
+			children = (
+				ADF9395624646E4E00E1CD01 /* NumberViewController.swift */,
+				ADF9395824646E7200E1CD01 /* NamesViewController.swift */,
+				ADF9395A24646E7F00E1CD01 /* AgesViewController.swift */,
+			);
+			path = children;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,14 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF9395B24646E7F00E1CD01 /* AgesViewController.swift in Sources */,
 				ADF9395224646B7400E1CD01 /* GamesViewController.swift in Sources */,
 				ADF9394924646AF200E1CD01 /* InstallationViewController.swift in Sources */,
 				ADF939362464631D00E1CD01 /* HomeViewController.swift in Sources */,
 				ADF939322464631D00E1CD01 /* AppDelegate.swift in Sources */,
+				ADF9395724646E4E00E1CD01 /* NumberViewController.swift in Sources */,
 				ADF9395024646B6500E1CD01 /* ChildrenViewController.swift in Sources */,
 				ADF9394B24646B1800E1CD01 /* MapViewController.swift in Sources */,
 				ADF939342464631D00E1CD01 /* SceneDelegate.swift in Sources */,
 				ADF9394D24646B2E00E1CD01 /* SettingsViewController.swift in Sources */,
+				ADF9395924646E7200E1CD01 /* NamesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
