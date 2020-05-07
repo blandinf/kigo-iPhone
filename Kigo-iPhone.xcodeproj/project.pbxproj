@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		ADF939322464631D00E1CD01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF939312464631D00E1CD01 /* AppDelegate.swift */; };
 		ADF939342464631D00E1CD01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF939332464631D00E1CD01 /* SceneDelegate.swift */; };
-		ADF939362464631D00E1CD01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF939352464631D00E1CD01 /* ViewController.swift */; };
+		ADF939362464631D00E1CD01 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF939352464631D00E1CD01 /* HomeViewController.swift */; };
 		ADF939392464631D00E1CD01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF939372464631D00E1CD01 /* Main.storyboard */; };
 		ADF9393B2464632100E1CD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF9393A2464632100E1CD01 /* Assets.xcassets */; };
 		ADF9393E2464632100E1CD01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF9393C2464632100E1CD01 /* LaunchScreen.storyboard */; };
+		ADF9394924646AF200E1CD01 /* InstallationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9394824646AF200E1CD01 /* InstallationViewController.swift */; };
+		ADF9394B24646B1800E1CD01 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9394A24646B1800E1CD01 /* MapViewController.swift */; };
+		ADF9394D24646B2E00E1CD01 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9394C24646B2E00E1CD01 /* SettingsViewController.swift */; };
+		ADF9395024646B6500E1CD01 /* ChildrenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9394F24646B6500E1CD01 /* ChildrenViewController.swift */; };
+		ADF9395224646B7400E1CD01 /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9395124646B7400E1CD01 /* GamesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADF9392E2464631D00E1CD01 /* Kigo-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kigo-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF939312464631D00E1CD01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADF939332464631D00E1CD01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADF939352464631D00E1CD01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADF939352464631D00E1CD01 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ADF939382464631D00E1CD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADF9393A2464632100E1CD01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF9393D2464632100E1CD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADF9393F2464632100E1CD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF9394824646AF200E1CD01 /* InstallationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationViewController.swift; sourceTree = "<group>"; };
+		ADF9394A24646B1800E1CD01 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		ADF9394C24646B2E00E1CD01 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		ADF9394F24646B6500E1CD01 /* ChildrenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenViewController.swift; sourceTree = "<group>"; };
+		ADF9395124646B7400E1CD01 /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,36 @@
 		ADF939302464631D00E1CD01 /* Kigo-iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				ADF9394524646AA100E1CD01 /* controllers */,
 				ADF939312464631D00E1CD01 /* AppDelegate.swift */,
 				ADF939332464631D00E1CD01 /* SceneDelegate.swift */,
-				ADF939352464631D00E1CD01 /* ViewController.swift */,
 				ADF939372464631D00E1CD01 /* Main.storyboard */,
 				ADF9393A2464632100E1CD01 /* Assets.xcassets */,
 				ADF9393C2464632100E1CD01 /* LaunchScreen.storyboard */,
 				ADF9393F2464632100E1CD01 /* Info.plist */,
 			);
 			path = "Kigo-iPhone";
+			sourceTree = "<group>";
+		};
+		ADF9394524646AA100E1CD01 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADF9394E24646B5000E1CD01 /* settings */,
+				ADF939352464631D00E1CD01 /* HomeViewController.swift */,
+				ADF9394824646AF200E1CD01 /* InstallationViewController.swift */,
+				ADF9394A24646B1800E1CD01 /* MapViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		ADF9394E24646B5000E1CD01 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				ADF9394C24646B2E00E1CD01 /* SettingsViewController.swift */,
+				ADF9394F24646B6500E1CD01 /* ChildrenViewController.swift */,
+				ADF9395124646B7400E1CD01 /* GamesViewController.swift */,
+			);
+			path = settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADF939362464631D00E1CD01 /* ViewController.swift in Sources */,
+				ADF9395224646B7400E1CD01 /* GamesViewController.swift in Sources */,
+				ADF9394924646AF200E1CD01 /* InstallationViewController.swift in Sources */,
+				ADF939362464631D00E1CD01 /* HomeViewController.swift in Sources */,
 				ADF939322464631D00E1CD01 /* AppDelegate.swift in Sources */,
+				ADF9395024646B6500E1CD01 /* ChildrenViewController.swift in Sources */,
+				ADF9394B24646B1800E1CD01 /* MapViewController.swift in Sources */,
 				ADF939342464631D00E1CD01 /* SceneDelegate.swift in Sources */,
+				ADF9394D24646B2E00E1CD01 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
