@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD1E06F624656083006DE8EF /* AgesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E06F524656083006DE8EF /* AgesTableViewCell.swift */; };
+		AD1E06F824656614006DE8EF /* datas.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1E06F724656614006DE8EF /* datas.json */; };
+		AD1E06FB246566D2006DE8EF /* Bundle-decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E06FA246566D2006DE8EF /* Bundle-decoding.swift */; };
+		AD6612E42469DE6900E054C3 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6612E32469DE6900E054C3 /* Child.swift */; };
+		AD6612E62469DEFD00E054C3 /* Children.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6612E52469DEFD00E054C3 /* Children.swift */; };
+		AD73E8B724655E330079F025 /* NamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD73E8B624655E330079F025 /* NamesTableViewCell.swift */; };
 		ADF939322464631D00E1CD01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF939312464631D00E1CD01 /* AppDelegate.swift */; };
 		ADF939342464631D00E1CD01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF939332464631D00E1CD01 /* SceneDelegate.swift */; };
 		ADF939362464631D00E1CD01 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF939352464631D00E1CD01 /* HomeViewController.swift */; };
@@ -24,6 +30,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD1E06F524656083006DE8EF /* AgesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgesTableViewCell.swift; sourceTree = "<group>"; };
+		AD1E06F724656614006DE8EF /* datas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = datas.json; sourceTree = "<group>"; };
+		AD1E06FA246566D2006DE8EF /* Bundle-decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-decoding.swift"; sourceTree = "<group>"; };
+		AD6612E32469DE6900E054C3 /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		AD6612E52469DEFD00E054C3 /* Children.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Children.swift; sourceTree = "<group>"; };
+		AD73E8B624655E330079F025 /* NamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesTableViewCell.swift; sourceTree = "<group>"; };
 		ADF9392E2464631D00E1CD01 /* Kigo-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kigo-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF939312464631D00E1CD01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADF939332464631D00E1CD01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +65,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD1E06F9246566A2006DE8EF /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD1E06FA246566D2006DE8EF /* Bundle-decoding.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		AD6612E22469DE5800E054C3 /* datas */ = {
+			isa = PBXGroup;
+			children = (
+				AD1E06F724656614006DE8EF /* datas.json */,
+				AD6612E32469DE6900E054C3 /* Child.swift */,
+				AD6612E52469DEFD00E054C3 /* Children.swift */,
+			);
+			path = datas;
+			sourceTree = "<group>";
+		};
+		AD73E8B224655DB50079F025 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADF9394C24646B2E00E1CD01 /* SettingsViewController.swift */,
+				ADF9394F24646B6500E1CD01 /* ChildrenViewController.swift */,
+				ADF9395124646B7400E1CD01 /* GamesViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		AD73E8B324655DD90079F025 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADF9395624646E4E00E1CD01 /* NumberViewController.swift */,
+				ADF9395824646E7200E1CD01 /* NamesViewController.swift */,
+				ADF9395A24646E7F00E1CD01 /* AgesViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		AD73E8B424655DE30079F025 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				AD73E8B624655E330079F025 /* NamesTableViewCell.swift */,
+				AD1E06F524656083006DE8EF /* AgesTableViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		AD73E8B524655DEE0079F025 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADF9394824646AF200E1CD01 /* InstallationViewController.swift */,
+				ADF9394A24646B1800E1CD01 /* MapViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
 		ADF939252464631D00E1CD01 = {
 			isa = PBXGroup;
 			children = (
@@ -72,7 +140,12 @@
 		ADF939302464631D00E1CD01 /* Kigo-iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				ADF9394524646AA100E1CD01 /* controllers */,
+				AD6612E22469DE5800E054C3 /* datas */,
+				ADF939352464631D00E1CD01 /* HomeViewController.swift */,
+				ADF9394E24646B5000E1CD01 /* settings */,
+				ADF9395324646E0B00E1CD01 /* trip */,
+				ADF9395424646E1600E1CD01 /* configuration */,
+				AD1E06F9246566A2006DE8EF /* extensions */,
 				ADF939312464631D00E1CD01 /* AppDelegate.swift */,
 				ADF939332464631D00E1CD01 /* SceneDelegate.swift */,
 				ADF939372464631D00E1CD01 /* Main.storyboard */,
@@ -83,23 +156,10 @@
 			path = "Kigo-iPhone";
 			sourceTree = "<group>";
 		};
-		ADF9394524646AA100E1CD01 /* controllers */ = {
-			isa = PBXGroup;
-			children = (
-				ADF9395424646E1600E1CD01 /* configuration */,
-				ADF9395324646E0B00E1CD01 /* trip */,
-				ADF9394E24646B5000E1CD01 /* settings */,
-				ADF939352464631D00E1CD01 /* HomeViewController.swift */,
-			);
-			path = controllers;
-			sourceTree = "<group>";
-		};
 		ADF9394E24646B5000E1CD01 /* settings */ = {
 			isa = PBXGroup;
 			children = (
-				ADF9394C24646B2E00E1CD01 /* SettingsViewController.swift */,
-				ADF9394F24646B6500E1CD01 /* ChildrenViewController.swift */,
-				ADF9395124646B7400E1CD01 /* GamesViewController.swift */,
+				AD73E8B224655DB50079F025 /* controllers */,
 			);
 			path = settings;
 			sourceTree = "<group>";
@@ -107,8 +167,7 @@
 		ADF9395324646E0B00E1CD01 /* trip */ = {
 			isa = PBXGroup;
 			children = (
-				ADF9394824646AF200E1CD01 /* InstallationViewController.swift */,
-				ADF9394A24646B1800E1CD01 /* MapViewController.swift */,
+				AD73E8B524655DEE0079F025 /* controllers */,
 			);
 			path = trip;
 			sourceTree = "<group>";
@@ -124,9 +183,8 @@
 		ADF9395524646E3800E1CD01 /* children */ = {
 			isa = PBXGroup;
 			children = (
-				ADF9395624646E4E00E1CD01 /* NumberViewController.swift */,
-				ADF9395824646E7200E1CD01 /* NamesViewController.swift */,
-				ADF9395A24646E7F00E1CD01 /* AgesViewController.swift */,
+				AD73E8B424655DE30079F025 /* cells */,
+				AD73E8B324655DD90079F025 /* controllers */,
 			);
 			path = children;
 			sourceTree = "<group>";
@@ -192,6 +250,7 @@
 				ADF9393E2464632100E1CD01 /* LaunchScreen.storyboard in Resources */,
 				ADF9393B2464632100E1CD01 /* Assets.xcassets in Resources */,
 				ADF939392464631D00E1CD01 /* Main.storyboard in Resources */,
+				AD1E06F824656614006DE8EF /* datas.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +263,10 @@
 			files = (
 				ADF9395B24646E7F00E1CD01 /* AgesViewController.swift in Sources */,
 				ADF9395224646B7400E1CD01 /* GamesViewController.swift in Sources */,
+				AD6612E62469DEFD00E054C3 /* Children.swift in Sources */,
+				AD73E8B724655E330079F025 /* NamesTableViewCell.swift in Sources */,
 				ADF9394924646AF200E1CD01 /* InstallationViewController.swift in Sources */,
+				AD1E06FB246566D2006DE8EF /* Bundle-decoding.swift in Sources */,
 				ADF939362464631D00E1CD01 /* HomeViewController.swift in Sources */,
 				ADF939322464631D00E1CD01 /* AppDelegate.swift in Sources */,
 				ADF9395724646E4E00E1CD01 /* NumberViewController.swift in Sources */,
@@ -212,6 +274,8 @@
 				ADF9394B24646B1800E1CD01 /* MapViewController.swift in Sources */,
 				ADF939342464631D00E1CD01 /* SceneDelegate.swift in Sources */,
 				ADF9394D24646B2E00E1CD01 /* SettingsViewController.swift in Sources */,
+				AD6612E42469DE6900E054C3 /* Child.swift in Sources */,
+				AD1E06F624656083006DE8EF /* AgesTableViewCell.swift in Sources */,
 				ADF9395924646E7200E1CD01 /* NamesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
