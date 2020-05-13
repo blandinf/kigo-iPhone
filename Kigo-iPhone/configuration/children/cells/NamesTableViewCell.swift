@@ -13,7 +13,7 @@ class NamesTableViewCell: UITableViewCell {
     @IBOutlet weak var childFirstnameTF: UITextField!
     @IBOutlet weak var childGender: UISegmentedControl!
     var localCollbackFirstname: ((String)->())?
-    var localCollbackGender: ((Character)->())?
+    var localCollbackGender: ((String)->())?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -24,7 +24,7 @@ class NamesTableViewCell: UITableViewCell {
         self.localCollbackFirstname = callback
     }
     
-    func listenToGenderChanges(callback: @escaping (Character)->()) {
+    func listenToGenderChanges(callback: @escaping (String)->()) {
         self.localCollbackGender = callback
     }
     
@@ -35,14 +35,10 @@ class NamesTableViewCell: UITableViewCell {
             }
         }
     }
-    
-    @IBAction func firstnameValueChanges(_ sender: UITextField) {
-        
-    }
    
     @IBAction func genderValueChanges(_ sender: UISegmentedControl) {
         if let callback = localCollbackGender {
-            var gender: Character = "M"
+            var gender = "M"
             if sender.selectedSegmentIndex == 1 {
                 gender = "F"
             }

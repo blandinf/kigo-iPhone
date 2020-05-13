@@ -12,7 +12,7 @@ class AgesViewController: UIViewController {
     @IBOutlet weak var myTableView: UITableView!
     var numberOfChildrenSelected: Int = 0
     var firstnames = [String]()
-    var genders = [Character]()
+    var genders = [String]()
     var ages = [Int]()
     
     override func viewDidLoad() {

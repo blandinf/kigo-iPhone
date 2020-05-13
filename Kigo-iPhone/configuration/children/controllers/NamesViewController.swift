@@ -11,7 +11,7 @@ import UIKit
 class NamesViewController: UIViewController {
     var numberOfChildrenSelected: Int = 0
     var firstnames: [String] = []
-    var genders: [Character] = []
+    var genders: [String] = []
     @IBOutlet weak var myTableView: UITableView!
     
     override func viewDidLoad() {
