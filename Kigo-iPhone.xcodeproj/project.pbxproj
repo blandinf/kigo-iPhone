@@ -3,15 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		AD1E06F624656083006DE8EF /* AgesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E06F524656083006DE8EF /* AgesTableViewCell.swift */; };
-		AD1E06F824656614006DE8EF /* datas.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1E06F724656614006DE8EF /* datas.json */; };
 		AD1E06FB246566D2006DE8EF /* Bundle-decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E06FA246566D2006DE8EF /* Bundle-decoding.swift */; };
+		AD5DFCCD246C34EA0067ACBF /* ChildrenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DFCCC246C34EA0067ACBF /* ChildrenService.swift */; };
 		AD6612E42469DE6900E054C3 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6612E32469DE6900E054C3 /* Child.swift */; };
-		AD6612E62469DEFD00E054C3 /* Children.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6612E52469DEFD00E054C3 /* Children.swift */; };
+		AD6612E9246B3CAE00E054C3 /* InstallationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6612E8246B3CAE00E054C3 /* InstallationTableViewCell.swift */; };
+		AD6612EB246BF3CC00E054C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD6612EA246BF3CC00E054C3 /* GoogleService-Info.plist */; };
 		AD73E8B724655E330079F025 /* NamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD73E8B624655E330079F025 /* NamesTableViewCell.swift */; };
 		ADF939322464631D00E1CD01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF939312464631D00E1CD01 /* AppDelegate.swift */; };
 		ADF939342464631D00E1CD01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF939332464631D00E1CD01 /* SceneDelegate.swift */; };
@@ -27,14 +28,17 @@
 		ADF9395724646E4E00E1CD01 /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9395624646E4E00E1CD01 /* NumberViewController.swift */; };
 		ADF9395924646E7200E1CD01 /* NamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9395824646E7200E1CD01 /* NamesViewController.swift */; };
 		ADF9395B24646E7F00E1CD01 /* AgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9395A24646E7F00E1CD01 /* AgesViewController.swift */; };
+		C3DFED49DF91922C6DA05A08 /* Pods_Kigo_iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E1794C9B5FA0BF9101906E /* Pods_Kigo_iPhone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94E1794C9B5FA0BF9101906E /* Pods_Kigo_iPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kigo_iPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1E06F524656083006DE8EF /* AgesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgesTableViewCell.swift; sourceTree = "<group>"; };
-		AD1E06F724656614006DE8EF /* datas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = datas.json; sourceTree = "<group>"; };
 		AD1E06FA246566D2006DE8EF /* Bundle-decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-decoding.swift"; sourceTree = "<group>"; };
+		AD5DFCCC246C34EA0067ACBF /* ChildrenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenService.swift; sourceTree = "<group>"; };
 		AD6612E32469DE6900E054C3 /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
-		AD6612E52469DEFD00E054C3 /* Children.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Children.swift; sourceTree = "<group>"; };
+		AD6612E8246B3CAE00E054C3 /* InstallationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationTableViewCell.swift; sourceTree = "<group>"; };
+		AD6612EA246BF3CC00E054C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AD73E8B624655E330079F025 /* NamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesTableViewCell.swift; sourceTree = "<group>"; };
 		ADF9392E2464631D00E1CD01 /* Kigo-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kigo-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF939312464631D00E1CD01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +56,8 @@
 		ADF9395624646E4E00E1CD01 /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
 		ADF9395824646E7200E1CD01 /* NamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesViewController.swift; sourceTree = "<group>"; };
 		ADF9395A24646E7F00E1CD01 /* AgesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgesViewController.swift; sourceTree = "<group>"; };
+		C9FFC21DE9F1F6914AD68358 /* Pods-Kigo-iPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kigo-iPhone.release.xcconfig"; path = "Target Support Files/Pods-Kigo-iPhone/Pods-Kigo-iPhone.release.xcconfig"; sourceTree = "<group>"; };
+		D9924C9975F76644336A9F51 /* Pods-Kigo-iPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kigo-iPhone.debug.xcconfig"; path = "Target Support Files/Pods-Kigo-iPhone/Pods-Kigo-iPhone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +65,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DFED49DF91922C6DA05A08 /* Pods_Kigo_iPhone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56B58562DDF1F12A7730D67F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94E1794C9B5FA0BF9101906E /* Pods_Kigo_iPhone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A0A104B2DDEE6A31D2E5742 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9924C9975F76644336A9F51 /* Pods-Kigo-iPhone.debug.xcconfig */,
+				C9FFC21DE9F1F6914AD68358 /* Pods-Kigo-iPhone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AD1E06F9246566A2006DE8EF /* extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,14 +97,28 @@
 			path = extensions;
 			sourceTree = "<group>";
 		};
-		AD6612E22469DE5800E054C3 /* datas */ = {
+		AD5DFCCB246C34D70067ACBF /* services */ = {
 			isa = PBXGroup;
 			children = (
-				AD1E06F724656614006DE8EF /* datas.json */,
-				AD6612E32469DE6900E054C3 /* Child.swift */,
-				AD6612E52469DEFD00E054C3 /* Children.swift */,
+				AD5DFCCC246C34EA0067ACBF /* ChildrenService.swift */,
 			);
-			path = datas;
+			path = services;
+			sourceTree = "<group>";
+		};
+		AD6612E22469DE5800E054C3 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				AD6612E32469DE6900E054C3 /* Child.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		AD6612E7246B3C9C00E054C3 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				AD6612E8246B3CAE00E054C3 /* InstallationTableViewCell.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 		AD73E8B224655DB50079F025 /* controllers */ = {
@@ -126,6 +164,8 @@
 			children = (
 				ADF939302464631D00E1CD01 /* Kigo-iPhone */,
 				ADF9392F2464631D00E1CD01 /* Products */,
+				9A0A104B2DDEE6A31D2E5742 /* Pods */,
+				56B58562DDF1F12A7730D67F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,7 +180,8 @@
 		ADF939302464631D00E1CD01 /* Kigo-iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				AD6612E22469DE5800E054C3 /* datas */,
+				AD5DFCCB246C34D70067ACBF /* services */,
+				AD6612E22469DE5800E054C3 /* models */,
 				ADF939352464631D00E1CD01 /* HomeViewController.swift */,
 				ADF9394E24646B5000E1CD01 /* settings */,
 				ADF9395324646E0B00E1CD01 /* trip */,
@@ -151,6 +192,7 @@
 				ADF939372464631D00E1CD01 /* Main.storyboard */,
 				ADF9393A2464632100E1CD01 /* Assets.xcassets */,
 				ADF9393C2464632100E1CD01 /* LaunchScreen.storyboard */,
+				AD6612EA246BF3CC00E054C3 /* GoogleService-Info.plist */,
 				ADF9393F2464632100E1CD01 /* Info.plist */,
 			);
 			path = "Kigo-iPhone";
@@ -167,6 +209,7 @@
 		ADF9395324646E0B00E1CD01 /* trip */ = {
 			isa = PBXGroup;
 			children = (
+				AD6612E7246B3C9C00E054C3 /* cells */,
 				AD73E8B524655DEE0079F025 /* controllers */,
 			);
 			path = trip;
@@ -196,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADF939422464632100E1CD01 /* Build configuration list for PBXNativeTarget "Kigo-iPhone" */;
 			buildPhases = (
+				70F8C6CD9A9A7DD2D2035796 /* [CP] Check Pods Manifest.lock */,
 				ADF9392A2464631D00E1CD01 /* Sources */,
 				ADF9392B2464631D00E1CD01 /* Frameworks */,
 				ADF9392C2464631D00E1CD01 /* Resources */,
+				94757A87CBE743523DE2C7A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,12 +294,54 @@
 			files = (
 				ADF9393E2464632100E1CD01 /* LaunchScreen.storyboard in Resources */,
 				ADF9393B2464632100E1CD01 /* Assets.xcassets in Resources */,
+				AD6612EB246BF3CC00E054C3 /* GoogleService-Info.plist in Resources */,
 				ADF939392464631D00E1CD01 /* Main.storyboard in Resources */,
-				AD1E06F824656614006DE8EF /* datas.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70F8C6CD9A9A7DD2D2035796 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kigo-iPhone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94757A87CBE743523DE2C7A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kigo-iPhone/Pods-Kigo-iPhone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kigo-iPhone/Pods-Kigo-iPhone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kigo-iPhone/Pods-Kigo-iPhone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADF9392A2464631D00E1CD01 /* Sources */ = {
@@ -263,7 +350,6 @@
 			files = (
 				ADF9395B24646E7F00E1CD01 /* AgesViewController.swift in Sources */,
 				ADF9395224646B7400E1CD01 /* GamesViewController.swift in Sources */,
-				AD6612E62469DEFD00E054C3 /* Children.swift in Sources */,
 				AD73E8B724655E330079F025 /* NamesTableViewCell.swift in Sources */,
 				ADF9394924646AF200E1CD01 /* InstallationViewController.swift in Sources */,
 				AD1E06FB246566D2006DE8EF /* Bundle-decoding.swift in Sources */,
@@ -271,12 +357,14 @@
 				ADF939322464631D00E1CD01 /* AppDelegate.swift in Sources */,
 				ADF9395724646E4E00E1CD01 /* NumberViewController.swift in Sources */,
 				ADF9395024646B6500E1CD01 /* ChildrenViewController.swift in Sources */,
+				AD5DFCCD246C34EA0067ACBF /* ChildrenService.swift in Sources */,
 				ADF9394B24646B1800E1CD01 /* MapViewController.swift in Sources */,
 				ADF939342464631D00E1CD01 /* SceneDelegate.swift in Sources */,
 				ADF9394D24646B2E00E1CD01 /* SettingsViewController.swift in Sources */,
 				AD6612E42469DE6900E054C3 /* Child.swift in Sources */,
 				AD1E06F624656083006DE8EF /* AgesTableViewCell.swift in Sources */,
 				ADF9395924646E7200E1CD01 /* NamesViewController.swift in Sources */,
+				AD6612E9246B3CAE00E054C3 /* InstallationTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +506,7 @@
 		};
 		ADF939432464632100E1CD01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9924C9975F76644336A9F51 /* Pods-Kigo-iPhone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,6 +525,7 @@
 		};
 		ADF939442464632100E1CD01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9FFC21DE9F1F6914AD68358 /* Pods-Kigo-iPhone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
