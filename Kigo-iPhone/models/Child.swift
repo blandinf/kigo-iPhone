@@ -11,9 +11,10 @@ import Foundation
 struct Child: Codable {
     let id: String
     let accountId: String
-    let firstname: String
-    let gender: String
+    var firstname: String
+    var gender: String
     var location: Int
+    var gamesNotAllowed: [String]
     
     init?(id: String, data: [String: Any]) {
         
@@ -22,7 +23,8 @@ struct Child: Codable {
         guard let accountId = data["accountId"] as? String,
             let firstname = data["firstname"] as? String,
             let gender = data["gender"] as? String,
-            let location = data["location"] as? Int
+            let location = data["location"] as? Int,
+            let gamesNotAllowed = data["gamesNotAllowed"] as? [String]
         else {
             return nil
         }
@@ -31,5 +33,6 @@ struct Child: Codable {
         self.firstname = firstname
         self.gender = gender
         self.location = location
+        self.gamesNotAllowed = gamesNotAllowed
     }
 }

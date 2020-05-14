@@ -20,6 +20,7 @@ class ChildrenService {
                 return
             } else {
                 for document in querySnapshot!.documents {
+                    print(document.data())
                     if let child = Child(id: document.documentID, data: document.data()) {
                         childrenArray.append(child)
                     }
@@ -36,5 +37,24 @@ class ChildrenService {
                   "location": locationValue
               ])
           }
+    }
+    
+    static func updateGamesNotAllowed(id: String, gamesNotAllowed: [String]) {
+        db.collection("child").document(id)
+        .getDocument() { (document, err) in
+            document?.reference.updateData([
+                "gamesNotAllowed": gamesNotAllowed
+            ])
+        }
+    }
+    
+    static func updateChild(child: Child) {
+        db.collection("child").document(child.id)
+        .getDocument() { (document, err) in
+            document?.reference.updateData([
+                "firstname": child.firstname,
+                "gender": child.gender
+            ])
+        }
     }
 }
