@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD041CAE246DC8D9008308E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD041CAD246DC8D9008308E5 /* GoogleService-Info.plist */; };
 		AD1E06F624656083006DE8EF /* AgesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E06F524656083006DE8EF /* AgesTableViewCell.swift */; };
 		AD5DFCCD246C34EA0067ACBF /* ChildrenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DFCCC246C34EA0067ACBF /* ChildrenService.swift */; };
 		AD5DFCD6246C65BB0067ACBF /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DFCD5246C65BB0067ACBF /* TravelViewController.swift */; };
@@ -15,7 +16,6 @@
 		AD5DFCDF246C89150067ACBF /* EditChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DFCDE246C89150067ACBF /* EditChildViewController.swift */; };
 		AD6612E42469DE6900E054C3 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6612E32469DE6900E054C3 /* Child.swift */; };
 		AD6612E9246B3CAE00E054C3 /* InstallationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6612E8246B3CAE00E054C3 /* InstallationTableViewCell.swift */; };
-		AD6612EB246BF3CC00E054C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD6612EA246BF3CC00E054C3 /* GoogleService-Info.plist */; };
 		AD73E8B724655E330079F025 /* NamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD73E8B624655E330079F025 /* NamesTableViewCell.swift */; };
 		ADEA05E0246D403000901D9E /* GamesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA05DF246D403000901D9E /* GamesCollectionViewCell.swift */; };
 		ADEA05E2246D41C200901D9E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA05E1246D41C200901D9E /* Game.swift */; };
@@ -39,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		94E1794C9B5FA0BF9101906E /* Pods_Kigo_iPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kigo_iPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD041CAD246DC8D9008308E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AD1E06F524656083006DE8EF /* AgesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgesTableViewCell.swift; sourceTree = "<group>"; };
 		AD5DFCCC246C34EA0067ACBF /* ChildrenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenService.swift; sourceTree = "<group>"; };
 		AD5DFCD5246C65BB0067ACBF /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		AD5DFCDE246C89150067ACBF /* EditChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditChildViewController.swift; sourceTree = "<group>"; };
 		AD6612E32469DE6900E054C3 /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
 		AD6612E8246B3CAE00E054C3 /* InstallationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationTableViewCell.swift; sourceTree = "<group>"; };
-		AD6612EA246BF3CC00E054C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AD73E8B624655E330079F025 /* NamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesTableViewCell.swift; sourceTree = "<group>"; };
 		ADEA05DF246D403000901D9E /* GamesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesCollectionViewCell.swift; sourceTree = "<group>"; };
 		ADEA05E1246D41C200901D9E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
@@ -217,7 +217,7 @@
 				ADF939312464631D00E1CD01 /* AppDelegate.swift */,
 				ADF939332464631D00E1CD01 /* SceneDelegate.swift */,
 				ADF9393C2464632100E1CD01 /* LaunchScreen.storyboard */,
-				AD6612EA246BF3CC00E054C3 /* GoogleService-Info.plist */,
+				AD041CAD246DC8D9008308E5 /* GoogleService-Info.plist */,
 				ADF9393F2464632100E1CD01 /* Info.plist */,
 			);
 			path = "Kigo-iPhone";
@@ -320,8 +320,8 @@
 			files = (
 				ADF9393E2464632100E1CD01 /* LaunchScreen.storyboard in Resources */,
 				ADF9393B2464632100E1CD01 /* Assets.xcassets in Resources */,
-				AD6612EB246BF3CC00E054C3 /* GoogleService-Info.plist in Resources */,
 				ADF939392464631D00E1CD01 /* Main.storyboard in Resources */,
+				AD041CAE246DC8D9008308E5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
