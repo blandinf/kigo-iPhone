@@ -31,7 +31,7 @@ class AgesTableViewCell: UITableViewCell {
         
          if let callback = localCollback {
             callback(Int(sender.value))
-        }
+         }
     }
     
 }

@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		AD1E06F624656083006DE8EF /* AgesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E06F524656083006DE8EF /* AgesTableViewCell.swift */; };
-		AD1E06FB246566D2006DE8EF /* Bundle-decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E06FA246566D2006DE8EF /* Bundle-decoding.swift */; };
 		AD5DFCCD246C34EA0067ACBF /* ChildrenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DFCCC246C34EA0067ACBF /* ChildrenService.swift */; };
+		AD5DFCD6246C65BB0067ACBF /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DFCD5246C65BB0067ACBF /* TravelViewController.swift */; };
+		AD5DFCD8246C81AD0067ACBF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DFCD7246C81AD0067ACBF /* GameViewController.swift */; };
+		AD5DFCDB246C85F80067ACBF /* ChildrenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DFCDA246C85F80067ACBF /* ChildrenTableViewCell.swift */; };
+		AD5DFCDF246C89150067ACBF /* EditChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DFCDE246C89150067ACBF /* EditChildViewController.swift */; };
 		AD6612E42469DE6900E054C3 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6612E32469DE6900E054C3 /* Child.swift */; };
 		AD6612E9246B3CAE00E054C3 /* InstallationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6612E8246B3CAE00E054C3 /* InstallationTableViewCell.swift */; };
 		AD6612EB246BF3CC00E054C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD6612EA246BF3CC00E054C3 /* GoogleService-Info.plist */; };
 		AD73E8B724655E330079F025 /* NamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD73E8B624655E330079F025 /* NamesTableViewCell.swift */; };
+		ADEA05E0246D403000901D9E /* GamesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA05DF246D403000901D9E /* GamesCollectionViewCell.swift */; };
+		ADEA05E2246D41C200901D9E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA05E1246D41C200901D9E /* Game.swift */; };
+		ADEA05E4246D440A00901D9E /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA05E3246D440A00901D9E /* GameService.swift */; };
 		ADF939322464631D00E1CD01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF939312464631D00E1CD01 /* AppDelegate.swift */; };
 		ADF939342464631D00E1CD01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF939332464631D00E1CD01 /* SceneDelegate.swift */; };
 		ADF939362464631D00E1CD01 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF939352464631D00E1CD01 /* HomeViewController.swift */; };
@@ -34,12 +40,18 @@
 /* Begin PBXFileReference section */
 		94E1794C9B5FA0BF9101906E /* Pods_Kigo_iPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kigo_iPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1E06F524656083006DE8EF /* AgesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgesTableViewCell.swift; sourceTree = "<group>"; };
-		AD1E06FA246566D2006DE8EF /* Bundle-decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-decoding.swift"; sourceTree = "<group>"; };
 		AD5DFCCC246C34EA0067ACBF /* ChildrenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenService.swift; sourceTree = "<group>"; };
+		AD5DFCD5246C65BB0067ACBF /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
+		AD5DFCD7246C81AD0067ACBF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AD5DFCDA246C85F80067ACBF /* ChildrenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenTableViewCell.swift; sourceTree = "<group>"; };
+		AD5DFCDE246C89150067ACBF /* EditChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditChildViewController.swift; sourceTree = "<group>"; };
 		AD6612E32469DE6900E054C3 /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
 		AD6612E8246B3CAE00E054C3 /* InstallationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationTableViewCell.swift; sourceTree = "<group>"; };
 		AD6612EA246BF3CC00E054C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AD73E8B624655E330079F025 /* NamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesTableViewCell.swift; sourceTree = "<group>"; };
+		ADEA05DF246D403000901D9E /* GamesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesCollectionViewCell.swift; sourceTree = "<group>"; };
+		ADEA05E1246D41C200901D9E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		ADEA05E3246D440A00901D9E /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
 		ADF9392E2464631D00E1CD01 /* Kigo-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kigo-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF939312464631D00E1CD01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADF939332464631D00E1CD01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,26 +101,38 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		AD1E06F9246566A2006DE8EF /* extensions */ = {
-			isa = PBXGroup;
-			children = (
-				AD1E06FA246566D2006DE8EF /* Bundle-decoding.swift */,
-			);
-			path = extensions;
-			sourceTree = "<group>";
-		};
 		AD5DFCCB246C34D70067ACBF /* services */ = {
 			isa = PBXGroup;
 			children = (
 				AD5DFCCC246C34EA0067ACBF /* ChildrenService.swift */,
+				ADEA05E3246D440A00901D9E /* GameService.swift */,
 			);
 			path = services;
+			sourceTree = "<group>";
+		};
+		AD5DFCD3246C659E0067ACBF /* travel */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DFCD5246C65BB0067ACBF /* TravelViewController.swift */,
+				AD5DFCD7246C81AD0067ACBF /* GameViewController.swift */,
+			);
+			path = travel;
+			sourceTree = "<group>";
+		};
+		AD5DFCD9246C842C0067ACBF /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DFCDA246C85F80067ACBF /* ChildrenTableViewCell.swift */,
+				ADEA05DF246D403000901D9E /* GamesCollectionViewCell.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 		AD6612E22469DE5800E054C3 /* models */ = {
 			isa = PBXGroup;
 			children = (
 				AD6612E32469DE6900E054C3 /* Child.swift */,
+				ADEA05E1246D41C200901D9E /* Game.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -127,6 +151,7 @@
 				ADF9394C24646B2E00E1CD01 /* SettingsViewController.swift */,
 				ADF9394F24646B6500E1CD01 /* ChildrenViewController.swift */,
 				ADF9395124646B7400E1CD01 /* GamesViewController.swift */,
+				AD5DFCDE246C89150067ACBF /* EditChildViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -153,6 +178,7 @@
 		AD73E8B524655DEE0079F025 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AD5DFCD3246C659E0067ACBF /* travel */,
 				ADF9394824646AF200E1CD01 /* InstallationViewController.swift */,
 				ADF9394A24646B1800E1CD01 /* MapViewController.swift */,
 			);
@@ -182,15 +208,14 @@
 			children = (
 				AD5DFCCB246C34D70067ACBF /* services */,
 				AD6612E22469DE5800E054C3 /* models */,
-				ADF939352464631D00E1CD01 /* HomeViewController.swift */,
 				ADF9394E24646B5000E1CD01 /* settings */,
 				ADF9395324646E0B00E1CD01 /* trip */,
 				ADF9395424646E1600E1CD01 /* configuration */,
-				AD1E06F9246566A2006DE8EF /* extensions */,
+				ADF939372464631D00E1CD01 /* Main.storyboard */,
+				ADF939352464631D00E1CD01 /* HomeViewController.swift */,
+				ADF9393A2464632100E1CD01 /* Assets.xcassets */,
 				ADF939312464631D00E1CD01 /* AppDelegate.swift */,
 				ADF939332464631D00E1CD01 /* SceneDelegate.swift */,
-				ADF939372464631D00E1CD01 /* Main.storyboard */,
-				ADF9393A2464632100E1CD01 /* Assets.xcassets */,
 				ADF9393C2464632100E1CD01 /* LaunchScreen.storyboard */,
 				AD6612EA246BF3CC00E054C3 /* GoogleService-Info.plist */,
 				ADF9393F2464632100E1CD01 /* Info.plist */,
@@ -201,6 +226,7 @@
 		ADF9394E24646B5000E1CD01 /* settings */ = {
 			isa = PBXGroup;
 			children = (
+				AD5DFCD9246C842C0067ACBF /* cells */,
 				AD73E8B224655DB50079F025 /* controllers */,
 			);
 			path = settings;
@@ -349,21 +375,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF9395B24646E7F00E1CD01 /* AgesViewController.swift in Sources */,
+				AD5DFCDF246C89150067ACBF /* EditChildViewController.swift in Sources */,
 				ADF9395224646B7400E1CD01 /* GamesViewController.swift in Sources */,
 				AD73E8B724655E330079F025 /* NamesTableViewCell.swift in Sources */,
 				ADF9394924646AF200E1CD01 /* InstallationViewController.swift in Sources */,
-				AD1E06FB246566D2006DE8EF /* Bundle-decoding.swift in Sources */,
+				AD5DFCD8246C81AD0067ACBF /* GameViewController.swift in Sources */,
 				ADF939362464631D00E1CD01 /* HomeViewController.swift in Sources */,
 				ADF939322464631D00E1CD01 /* AppDelegate.swift in Sources */,
 				ADF9395724646E4E00E1CD01 /* NumberViewController.swift in Sources */,
+				AD5DFCDB246C85F80067ACBF /* ChildrenTableViewCell.swift in Sources */,
+				AD5DFCD6246C65BB0067ACBF /* TravelViewController.swift in Sources */,
 				ADF9395024646B6500E1CD01 /* ChildrenViewController.swift in Sources */,
+				ADEA05E4246D440A00901D9E /* GameService.swift in Sources */,
 				AD5DFCCD246C34EA0067ACBF /* ChildrenService.swift in Sources */,
 				ADF9394B24646B1800E1CD01 /* MapViewController.swift in Sources */,
 				ADF939342464631D00E1CD01 /* SceneDelegate.swift in Sources */,
 				ADF9394D24646B2E00E1CD01 /* SettingsViewController.swift in Sources */,
 				AD6612E42469DE6900E054C3 /* Child.swift in Sources */,
+				ADEA05E2246D41C200901D9E /* Game.swift in Sources */,
 				AD1E06F624656083006DE8EF /* AgesTableViewCell.swift in Sources */,
 				ADF9395924646E7200E1CD01 /* NamesViewController.swift in Sources */,
+				ADEA05E0246D403000901D9E /* GamesCollectionViewCell.swift in Sources */,
 				AD6612E9246B3CAE00E054C3 /* InstallationTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

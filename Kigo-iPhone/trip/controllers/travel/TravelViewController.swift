@@ -9,22 +9,42 @@
 import UIKit
 
 class TravelViewController: UIViewController {
-
+    var destination: String?
+    @IBOutlet weak var destinationLbl: UILabel!
+    @IBOutlet weak var childSelected: UISegmentedControl!
+    var childrens = [Child]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        if let dest = destination {
+            destinationLbl.text! += " " + dest.uppercased()
+        }
+        initializeChildren()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func initializeChildren () {
+        ChildrenService.getChildren { childrenArray, error in
+            if let err = error {
+                print(err)
+                return
+            }
+            self.childrens = childrenArray
+            for (index, child) in self.childrens.enumerated() {
+                self.childSelected.setTitle(child.firstname, forSegmentAt: index)
+            }
+        }
     }
-    */
-
+    
+    @IBAction func childSelectedChanges(_ sender: Any) {
+        
+    }
+    
+    @IBAction func stopGame(_ sender: Any) {
+        
+    }
+    
+    @IBAction func pauseGame(_ sender: Any) {
+        
+    }
+    
 }

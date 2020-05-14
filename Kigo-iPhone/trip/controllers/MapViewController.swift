@@ -9,22 +9,24 @@
 import UIKit
 
 class MapViewController: UIViewController {
-
+    @IBOutlet weak var destinationTF: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "TabBarController" {
+            if let tabBarController = segue.destination as? UITabBarController {
+                if let text = destinationTF.text {
+                    if let travelViewController = tabBarController.viewControllers![0] as? TravelViewController {
+                        travelViewController.destination = text
+                    }
+                    if let gameViewController = tabBarController.viewControllers![1] as? GameViewController {
+                        gameViewController.destination = text
+                    }
+                }
+            }
+        }
     }
-    */
-
 }
