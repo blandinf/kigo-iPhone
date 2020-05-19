@@ -21,6 +21,7 @@ class EditChildViewController: UIViewController {
             profileLbl.text! += " " + child.firstname
             firstnameTF.text = child.firstname
             gender.selectedSegmentIndex = child.gender == "H" ? 0 : 1
+            birthdate.date = child.birthdate
         }
     }
     
@@ -29,6 +30,7 @@ class EditChildViewController: UIViewController {
             let firstname = firstnameTF.text {
             child.firstname = firstname
             child.gender = gender.selectedSegmentIndex == 0 ? "H" : "F"
+            child.birthdate = birthdate.date
             ChildrenService.updateChild(child: child)
             navigationController?.popViewController(animated: true)
         }

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FirebaseFirestore
 
 struct Child: Codable {
     let id: String
@@ -14,11 +15,13 @@ struct Child: Codable {
     var firstname: String
     var gender: String
     var location: Int
+    var birthdate: Date
     var gamesNotAllowed: [String]
     
-    init?(id: String, data: [String: Any]) {
+    init?(id: String, data: [String: Any], birthdate: Date) {
         
         self.id = id
+        self.birthdate = birthdate
         
         guard let accountId = data["accountId"] as? String,
             let firstname = data["firstname"] as? String,

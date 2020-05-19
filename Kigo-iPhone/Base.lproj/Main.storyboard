@@ -55,8 +55,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="199"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="VHg-6P-gTf">
-                                                    <rect key="frame" x="122" y="84" width="131" height="32"/>
+                                                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="VHg-6P-gTf">
+                                                    <rect key="frame" x="-66.5" y="84" width="133" height="32"/>
                                                     <segments>
                                                         <segment title="Gauche"/>
                                                         <segment title="Droite"/>
@@ -74,6 +74,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Qfa-wJ-2Rb" firstAttribute="top" secondItem="BJp-u2-sGc" secondAttribute="top" constant="38" id="6s8-DZ-vsS"/>
+                                                <constraint firstItem="VHg-6P-gTf" firstAttribute="centerX" secondItem="BJp-u2-sGc" secondAttribute="centerX" id="Gkl-oU-u9m"/>
                                                 <constraint firstItem="VHg-6P-gTf" firstAttribute="top" secondItem="Qfa-wJ-2Rb" secondAttribute="bottom" constant="25" id="OkB-Kv-o5q"/>
                                                 <constraint firstItem="Qfa-wJ-2Rb" firstAttribute="centerX" secondItem="BJp-u2-sGc" secondAttribute="centerX" id="QEp-1K-tEw"/>
                                             </constraints>
@@ -670,9 +671,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="VAT-TU-4J3">
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="VAT-TU-4J3">
                                 <rect key="frame" x="0.0" y="373" width="414" height="216"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="minimumDate" timeIntervalSinceReferenceDate="-978267600">
+                                    <!--1970-01-01 11:00:00 +0000-->
+                                </date>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Vm-aT-Nf5">
                                 <rect key="frame" x="104" y="791" width="53" height="30"/>

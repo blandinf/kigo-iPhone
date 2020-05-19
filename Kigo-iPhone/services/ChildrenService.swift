@@ -20,9 +20,10 @@ class ChildrenService {
                 return
             } else {
                 for document in querySnapshot!.documents {
-                    print(document.data())
-                    if let child = Child(id: document.documentID, data: document.data()) {
-                        childrenArray.append(child)
+                    if let birthdate = document.data()["birthdate"] as? Timestamp {
+                        if let child = Child(id: document.documentID, data: document.data(), birthdate: birthdate.dateValue()) {
+                            childrenArray.append(child)
+                        }
                     }
                 }
                 completionHandler(childrenArray, nil)
@@ -53,7 +54,8 @@ class ChildrenService {
         .getDocument() { (document, err) in
             document?.reference.updateData([
                 "firstname": child.firstname,
-                "gender": child.gender
+                "gender": child.gender,
+                "birthdate": child.birthdate
             ])
         }
     }

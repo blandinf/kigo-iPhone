@@ -7,11 +7,18 @@
 //
 
 import UIKit
+import FirebaseFirestore
 
 class ChildrenViewController: UIViewController {
     @IBOutlet weak var myTableView: UITableView!
     var childrens = [Child]()
     var selectedChild: Child?
+    lazy var dateFormatter : DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd"
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        return formatter
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +39,7 @@ class ChildrenViewController: UIViewController {
                return
            }
            self.childrens = childrenArray
+        print("childrens \(self.childrens)")
            self.myTableView.reloadData()
        }
     }
@@ -67,6 +75,13 @@ extension ChildrenViewController:UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ChildrenTableViewCell", for: indexPath) as! ChildrenTableViewCell
         
         cell.firstnameLbl.text = childrens[indexPath.row].firstname
+        
+        let now = NSDate()
+        let calendar : NSCalendar = NSCalendar.current as NSCalendar
+        let ageComponents = calendar.components(.year, from: childrens[indexPath.row].birthdate, to: now as Date, options: [])
+        let age = ageComponents.year!
+        cell.ageLbl.text = "\(age) ans"
+    
         cell.listenToEditClicked { () in
             self.selectedChild = self.childrens[indexPath.row]
         }
