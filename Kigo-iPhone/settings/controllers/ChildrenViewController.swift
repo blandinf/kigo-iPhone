@@ -20,6 +20,7 @@ class ChildrenViewController: UIViewController {
         return formatter
     }()
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         myTableView.delegate = self
@@ -30,6 +31,10 @@ class ChildrenViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
             self.initializeChildren()
         }
+    }
+    
+    @IBAction func back(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
     }
     
     func initializeChildren () {
@@ -68,13 +73,13 @@ extension ChildrenViewController:UITableViewDelegate {
 
 extension ChildrenViewController:UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return childrens.count
+        return childrens.count 
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ChildrenTableViewCell", for: indexPath) as! ChildrenTableViewCell
         
-        cell.firstnameLbl.text = childrens[indexPath.row].firstname
+        cell.firstnameLbl.text = childrens[indexPath.row].firstname.uppercased()
         
         let now = NSDate()
         let calendar : NSCalendar = NSCalendar.current as NSCalendar

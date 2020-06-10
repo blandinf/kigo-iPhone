@@ -44,14 +44,31 @@ extension InstallationViewController:UITableViewDelegate {
 }
 
 extension InstallationViewController:UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = UIView()
+        headerView.backgroundColor = UIColor.clear
+        return headerView
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 15
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
         return self.childrens.count
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "InstallationViewController", for: indexPath) as! InstallationTableViewCell
         
-        let currentChild = self.childrens[indexPath.row]
+        cell.clipsToBounds = true
+        
+        let currentChild = self.childrens[indexPath.section]
                 
         cell.childFirstnameLbl.text = currentChild.firstname
         cell.childLocation.selectedSegmentIndex = currentChild.location

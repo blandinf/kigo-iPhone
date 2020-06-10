@@ -12,9 +12,12 @@ class ChildrenTableViewCell: UITableViewCell {
     @IBOutlet weak var firstnameLbl: UILabel!
     @IBOutlet weak var ageLbl: UILabel!
     var localCollback: (()->())?
+    @IBOutlet weak var editBtn: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        editBtn.titleLabel!.attributedText = NSAttributedString(string: "Modifier", attributes:
+                [.underlineStyle: NSUnderlineStyle.single.rawValue])
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

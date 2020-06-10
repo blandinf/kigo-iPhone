@@ -12,6 +12,7 @@ class GamesCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var myImageView: UIImageView!
     @IBOutlet weak var nameLbl: UILabel!
     var localCollback: (()->())?
+    @IBOutlet weak var banButton: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()

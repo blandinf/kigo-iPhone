@@ -11,8 +11,11 @@ import UIKit
 class HomeViewController: UIViewController {
     let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
     
+    @IBOutlet weak var settingsBackgroundView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        settingsBackgroundView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner, .layerMinXMinYCorner]
     }
     
     @IBAction func newDeparture(_ sender: Any) {
