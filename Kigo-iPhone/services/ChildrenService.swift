@@ -58,6 +58,15 @@ class ChildrenService {
           }
     }
     
+    static func updateCurrentSleep(id: String, currentSleep: String) {
+        db.collection("child").document(id)
+          .getDocument() { (document, err) in
+              document?.reference.updateData([
+                  "currentSleep": currentSleep
+              ])
+          }
+    }
+    
     static func updateGamesNotAllowed(id: String, gamesNotAllowed: [String]) {
         db.collection("child").document(id)
         .getDocument() { (document, err) in
