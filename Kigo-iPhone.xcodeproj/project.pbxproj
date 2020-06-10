@@ -17,6 +17,18 @@
 		AD6612E42469DE6900E054C3 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6612E32469DE6900E054C3 /* Child.swift */; };
 		AD6612E9246B3CAE00E054C3 /* InstallationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6612E8246B3CAE00E054C3 /* InstallationTableViewCell.swift */; };
 		AD73E8B724655E330079F025 /* NamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD73E8B624655E330079F025 /* NamesTableViewCell.swift */; };
+		ADADD036248FB60600AFDF77 /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADADD035248FB60600AFDF77 /* SleepViewController.swift */; };
+		ADADD038248FBE9E00AFDF77 /* TravelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADADD037248FBE9E00AFDF77 /* TravelTableViewCell.swift */; };
+		ADADD03B248FD02800AFDF77 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADADD03A248FD02800AFDF77 /* utils.swift */; };
+		ADADD03D248FD15F00AFDF77 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADADD03C248FD15F00AFDF77 /* UIColorExtension.swift */; };
+		ADADD03F2490153700AFDF77 /* SleepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADADD03E2490153700AFDF77 /* SleepTableViewCell.swift */; };
+		ADADD041249015F800AFDF77 /* Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADADD040249015F800AFDF77 /* Sleep.swift */; };
+		ADADD0432490C06400AFDF77 /* SleepService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADADD0422490C06400AFDF77 /* SleepService.swift */; };
+		ADC70F0F248E9F4200C88FBF /* BowlbyOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC70F0E248E9F4200C88FBF /* BowlbyOne-Regular.ttf */; };
+		ADC70F11248E9F9D00C88FBF /* PTSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC70F10248E9F9D00C88FBF /* PTSans-Bold.ttf */; };
+		ADC70F13248EA0A100C88FBF /* PTSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC70F12248EA0A100C88FBF /* PTSans-Regular.ttf */; };
+		ADC70F15248EAA8C00C88FBF /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC70F14248EAA8B00C88FBF /* SourceSansPro-Bold.ttf */; };
+		ADDCC80B248FABED00BF5105 /* CGPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDCC80A248FABED00BF5105 /* CGPointExtensions.swift */; };
 		ADEA05E0246D403000901D9E /* GamesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA05DF246D403000901D9E /* GamesCollectionViewCell.swift */; };
 		ADEA05E2246D41C200901D9E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA05E1246D41C200901D9E /* Game.swift */; };
 		ADEA05E4246D440A00901D9E /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA05E3246D440A00901D9E /* GameService.swift */; };
@@ -49,6 +61,18 @@
 		AD6612E32469DE6900E054C3 /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
 		AD6612E8246B3CAE00E054C3 /* InstallationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationTableViewCell.swift; sourceTree = "<group>"; };
 		AD73E8B624655E330079F025 /* NamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesTableViewCell.swift; sourceTree = "<group>"; };
+		ADADD035248FB60600AFDF77 /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		ADADD037248FBE9E00AFDF77 /* TravelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTableViewCell.swift; sourceTree = "<group>"; };
+		ADADD03A248FD02800AFDF77 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		ADADD03C248FD15F00AFDF77 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		ADADD03E2490153700AFDF77 /* SleepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTableViewCell.swift; sourceTree = "<group>"; };
+		ADADD040249015F800AFDF77 /* Sleep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep.swift; sourceTree = "<group>"; };
+		ADADD0422490C06400AFDF77 /* SleepService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepService.swift; sourceTree = "<group>"; };
+		ADC70F0E248E9F4200C88FBF /* BowlbyOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BowlbyOne-Regular.ttf"; sourceTree = "<group>"; };
+		ADC70F10248E9F9D00C88FBF /* PTSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSans-Bold.ttf"; sourceTree = "<group>"; };
+		ADC70F12248EA0A100C88FBF /* PTSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSans-Regular.ttf"; sourceTree = "<group>"; };
+		ADC70F14248EAA8B00C88FBF /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		ADDCC80A248FABED00BF5105 /* CGPointExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointExtensions.swift; sourceTree = "<group>"; };
 		ADEA05DF246D403000901D9E /* GamesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesCollectionViewCell.swift; sourceTree = "<group>"; };
 		ADEA05E1246D41C200901D9E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		ADEA05E3246D440A00901D9E /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
@@ -106,6 +130,7 @@
 			children = (
 				AD5DFCCC246C34EA0067ACBF /* ChildrenService.swift */,
 				ADEA05E3246D440A00901D9E /* GameService.swift */,
+				ADADD0422490C06400AFDF77 /* SleepService.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -115,6 +140,7 @@
 			children = (
 				AD5DFCD5246C65BB0067ACBF /* TravelViewController.swift */,
 				AD5DFCD7246C81AD0067ACBF /* GameViewController.swift */,
+				ADADD035248FB60600AFDF77 /* SleepViewController.swift */,
 			);
 			path = travel;
 			sourceTree = "<group>";
@@ -133,6 +159,7 @@
 			children = (
 				AD6612E32469DE6900E054C3 /* Child.swift */,
 				ADEA05E1246D41C200901D9E /* Game.swift */,
+				ADADD040249015F800AFDF77 /* Sleep.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -141,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				AD6612E8246B3CAE00E054C3 /* InstallationTableViewCell.swift */,
+				ADADD037248FBE9E00AFDF77 /* TravelTableViewCell.swift */,
+				ADADD03E2490153700AFDF77 /* SleepTableViewCell.swift */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -185,6 +214,26 @@
 			path = controllers;
 			sourceTree = "<group>";
 		};
+		ADC70F0D248E9F1500C88FBF /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ADC70F12248EA0A100C88FBF /* PTSans-Regular.ttf */,
+				ADC70F10248E9F9D00C88FBF /* PTSans-Bold.ttf */,
+				ADC70F0E248E9F4200C88FBF /* BowlbyOne-Regular.ttf */,
+				ADC70F14248EAA8B00C88FBF /* SourceSansPro-Bold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		ADDCC809248FABD700BF5105 /* extensiona */ = {
+			isa = PBXGroup;
+			children = (
+				ADDCC80A248FABED00BF5105 /* CGPointExtensions.swift */,
+				ADADD03C248FD15F00AFDF77 /* UIColorExtension.swift */,
+			);
+			path = extensiona;
+			sourceTree = "<group>";
+		};
 		ADF939252464631D00E1CD01 = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +255,8 @@
 		ADF939302464631D00E1CD01 /* Kigo-iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				ADDCC809248FABD700BF5105 /* extensiona */,
+				ADC70F0D248E9F1500C88FBF /* fonts */,
 				AD5DFCCB246C34D70067ACBF /* services */,
 				AD6612E22469DE5800E054C3 /* models */,
 				ADF9394E24646B5000E1CD01 /* settings */,
@@ -219,6 +270,7 @@
 				ADF9393C2464632100E1CD01 /* LaunchScreen.storyboard */,
 				AD041CAD246DC8D9008308E5 /* GoogleService-Info.plist */,
 				ADF9393F2464632100E1CD01 /* Info.plist */,
+				ADADD03A248FD02800AFDF77 /* utils.swift */,
 			);
 			path = "Kigo-iPhone";
 			sourceTree = "<group>";
@@ -320,8 +372,12 @@
 			files = (
 				ADF9393E2464632100E1CD01 /* LaunchScreen.storyboard in Resources */,
 				ADF9393B2464632100E1CD01 /* Assets.xcassets in Resources */,
+				ADC70F11248E9F9D00C88FBF /* PTSans-Bold.ttf in Resources */,
+				ADC70F0F248E9F4200C88FBF /* BowlbyOne-Regular.ttf in Resources */,
 				ADF939392464631D00E1CD01 /* Main.storyboard in Resources */,
 				AD041CAE246DC8D9008308E5 /* GoogleService-Info.plist in Resources */,
+				ADC70F13248EA0A100C88FBF /* PTSans-Regular.ttf in Resources */,
+				ADC70F15248EAA8C00C88FBF /* SourceSansPro-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,19 +439,27 @@
 				ADF939362464631D00E1CD01 /* HomeViewController.swift in Sources */,
 				ADF939322464631D00E1CD01 /* AppDelegate.swift in Sources */,
 				ADF9395724646E4E00E1CD01 /* NumberViewController.swift in Sources */,
+				ADADD038248FBE9E00AFDF77 /* TravelTableViewCell.swift in Sources */,
+				ADADD0432490C06400AFDF77 /* SleepService.swift in Sources */,
 				AD5DFCDB246C85F80067ACBF /* ChildrenTableViewCell.swift in Sources */,
+				ADADD041249015F800AFDF77 /* Sleep.swift in Sources */,
 				AD5DFCD6246C65BB0067ACBF /* TravelViewController.swift in Sources */,
 				ADF9395024646B6500E1CD01 /* ChildrenViewController.swift in Sources */,
 				ADEA05E4246D440A00901D9E /* GameService.swift in Sources */,
+				ADADD03F2490153700AFDF77 /* SleepTableViewCell.swift in Sources */,
 				AD5DFCCD246C34EA0067ACBF /* ChildrenService.swift in Sources */,
+				ADADD03D248FD15F00AFDF77 /* UIColorExtension.swift in Sources */,
 				ADF9394B24646B1800E1CD01 /* MapViewController.swift in Sources */,
 				ADF939342464631D00E1CD01 /* SceneDelegate.swift in Sources */,
 				ADF9394D24646B2E00E1CD01 /* SettingsViewController.swift in Sources */,
+				ADADD03B248FD02800AFDF77 /* utils.swift in Sources */,
 				AD6612E42469DE6900E054C3 /* Child.swift in Sources */,
 				ADEA05E2246D41C200901D9E /* Game.swift in Sources */,
+				ADADD036248FB60600AFDF77 /* SleepViewController.swift in Sources */,
 				AD1E06F624656083006DE8EF /* AgesTableViewCell.swift in Sources */,
 				ADF9395924646E7200E1CD01 /* NamesViewController.swift in Sources */,
 				ADEA05E0246D403000901D9E /* GamesCollectionViewCell.swift in Sources */,
+				ADDCC80B248FABED00BF5105 /* CGPointExtensions.swift in Sources */,
 				AD6612E9246B3CAE00E054C3 /* InstallationTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
