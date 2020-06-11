@@ -31,11 +31,21 @@ class ChildrenService {
         }
     }
     
+    // car seat location (right or left)
     static func updateLocation(id: String, locationValue: Int) {
         db.collection("child").document(id)
           .getDocument() { (document, err) in
               document?.reference.updateData([
                   "location": locationValue
+              ])
+          }
+    }
+    
+    static func updateDestination(id: String, destination: String) {
+        db.collection("child").document(id)
+          .getDocument() { (document, err) in
+              document?.reference.updateData([
+                  "destination": destination
               ])
           }
     }

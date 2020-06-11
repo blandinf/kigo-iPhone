@@ -392,6 +392,7 @@ utiliser Kigo</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="next:" destination="R8E-8L-6NR" eventType="touchUpInside" id="HWJ-uO-7p5"/>
                                     <segue destination="LD0-dg-oVs" kind="show" id="dKE-Fd-aAb"/>
                                 </connections>
                             </button>
